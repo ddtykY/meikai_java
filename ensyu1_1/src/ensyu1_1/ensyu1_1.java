@@ -15,7 +15,7 @@ public class ensyu1_1 {
 	 * 2つ目も１つ目同様に;を省いています。
 	 */
 	public static void main(String[] args) {
-	    System.out.println("初めてのjavaプログラミング");
-	    System.out.println("画面に出力しています");
+	    System.out.println("初めてのjavaプログラミング")
+	    System.out.println("画面に出力しています")
 	}
 }
