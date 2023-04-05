@@ -15,7 +15,7 @@ public class ensyu1_2 {
 	 * 作成日           :2023.04.05
 	 */
 	public static void main(String[] args) {
-		//各行に1文字づつ表示するために自身の名前それぞれの間で改行を行う
+		//各行に1文字づつ表示するために自分の名前それぞれの間で改行を行う
 		System.out.print("山\n川\n勇\n輝");
 	}
 }
