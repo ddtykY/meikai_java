@@ -1,5 +1,6 @@
 package ensyu2_6;
 
+//Scannerクラスを使用可能にするためにimportする
 import java.util.Scanner;
 
 /*
@@ -23,6 +24,7 @@ public class ensyu2_6 {
 		
 		// 三角形の面積を求めるという旨を表示し伝える
 		System.out.println("三角形の面積を求めます。 ");
+		
 		// 底辺を表す実数値"bottomLength"の入力を促す
 		System.out.print("底辺 : ");
 		// double型の変数"bottomLength"に実数値を読み込む
