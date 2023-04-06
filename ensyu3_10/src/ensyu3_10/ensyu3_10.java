@@ -23,12 +23,12 @@ public class ensyu3_10 {
 		Scanner standardInput = new Scanner(System.in);
 		
 		// 整数値"firstValue"の入力を促す
-		System.out.print("実数値firstValue : ");
+		System.out.print("整数値firstValue : ");
 		// int型の変数"firstValue"に入力された整数値を代入する
 		int firstValue = standardInput.nextInt();
 		
 		// 整数値"secondValue"の入力を促す
-		System.out.print("実数値secondValue : ");
+		System.out.print("整数値secondValue : ");
 		// int型の変数"secondValue"に入力された整数値を代入する
 		int secondValue = standardInput.nextInt();
 		
