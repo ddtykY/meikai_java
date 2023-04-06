@@ -22,7 +22,7 @@ public class ensyu3_6 {
 		// Scannerクラスのインスタンスを作成する
 		Scanner standardInput = new Scanner(System.in);
 		
-		// 実数値"firstValue"の入力を促す
+		// 実数値"value"の入力を促す
 		System.out.print("正の整数value : ");
 		// int型の変数"value"に入力された整数値を代入する
 		int value = standardInput.nextInt();
