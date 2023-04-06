@@ -33,10 +33,10 @@ public class ensyu2_6 {
 		// 高さを表す実数値"height"の入力を促す
 		System.out.print("高さ : ");
 		// double型の変数"bottomLength"に実数値を読み込む
-		double height = standardInput.nextDouble();
+		double heighValue = standardInput.nextDouble();
 		
 		// 三角形の面積(底辺*高さ/2)をひょうじする
-		System.out.println("面積は" + bottomLength * height / 2 + "です。");
+		System.out.println("面積は" + bottomLength * heighValue / 2 + "です。");
 		
 		//standardInputを閉じる
 		standardInput.close();
