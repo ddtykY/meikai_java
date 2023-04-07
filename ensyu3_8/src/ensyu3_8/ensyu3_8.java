@@ -21,26 +21,26 @@ public class ensyu3_8 {
 		// Scannerクラスのインスタンスを作成する
 		Scanner standardInput = new Scanner(System.in);
 		
-		// 整数値"points"の入力を促す
+		// 整数値"pointNumber"の入力を促す
 		System.out.print("点数 : ");
-		// int型の変数"points"に入力された整数値を代入する
+		// int型の変数"pointNumber"に入力された整数値を代入する
 		int pointNumber = standardInput.nextInt();
 		
 		
-		if (pointNumber >= 0 && pointNumber <= 59) {
-			// 点数が0～59の場合は不可と表示する
+		if (pointNumber >= 0 && pointNumber <= 59) {// 点数が0～59の場合
+			// 不可と表示する
 			System.out.println("不可");
-		} else if (pointNumber >= 60 && pointNumber <= 69){
-			// 点数が60～69の場合は可と表示する
+		} else if (pointNumber >= 60 && pointNumber <= 69){// 点数が60～69の場合
+			// 可と表示する
 			System.out.println("可");
-		} else if (pointNumber >= 70 && pointNumber <= 79){
-			// 点数が70～79の場合は良と表示する
+		} else if (pointNumber >= 70 && pointNumber <= 79){// 点数が70～79の場合
+			// 良と表示する
 			System.out.println("良");
-		} else if (pointNumber >= 80 && pointNumber <= 100) {
-			// 点数が80～100の場合は優と表示する
+		} else if (pointNumber >= 80 && pointNumber <= 100) {// 点数が80～100の場合
+			// 優と表示する
 			System.out.println("優");
-		} else {
-			// ほかのどの条件にも当てはまらない場合は不正な値であることを表示する
+		} else {// ほかのどの条件にも当てはまらない場合(点数が0未満101以上)
+			// 不正な値であることを表示する
 			System.out.println("不正な値です");	
 		}
 	}
