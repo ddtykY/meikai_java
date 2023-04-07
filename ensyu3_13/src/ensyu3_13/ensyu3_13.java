@@ -41,15 +41,15 @@ public class ensyu3_13 {
 		// そこにまず一つ目の整数値の"firstValue"を代入し、この後ほかの整数値と比較していく
 		int medianNumber = firstValue;
 		
-		if (medianNumber > secondValue && medianNumber > thirdValue) {
-			// "median"が他の二値のどちらよりも大きい場合、他の2値の大きいほうを"median"に代入する
+		if (medianNumber > secondValue && medianNumber > thirdValue) { // "medianNumber"が他の二値のどちらよりも大きい場合
+			// 他の2値の大きいほうを"medianNumber"に代入する
 			medianNumber = secondValue > thirdValue ? secondValue : thirdValue;
-		} else if (medianNumber < secondValue && medianNumber < thirdValue) {
-			// "median"が他の二値のどちらよりも小さい場合、他の2値の小さいほうを"median"に代入する
+		} else if (medianNumber < secondValue && medianNumber < thirdValue) { // "medianNumber"が他の二値のどちらよりも小さい場合
+			// 他の2値の小さいほうを"medianNumber"に代入する
 			medianNumber = secondValue < thirdValue ? secondValue : thirdValue;
 		}
 		
-		// 全ての数を比較し求めた中央値"median"を表示する
+		// 全ての数を比較し求めた中央値"medianNumber"を表示する
 		System.out.println("中央値は " + medianNumber + " です。");
 		
 		//standardInputを閉じる
