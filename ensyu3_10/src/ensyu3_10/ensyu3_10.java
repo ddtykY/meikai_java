@@ -31,10 +31,10 @@ public class ensyu3_10 {
 		// int型の変数"secondValue"に入力された整数値を代入する
 		int secondValue = standardInput.nextInt();
 		
-		// 条件演算子を用いて二つの数値の差を求めてint型の変数"difference"
+		// 条件演算子を用いて二つの数値の差を求めてint型の変数"differenceValue"に代入する
 		int differenceValue = firstValue > secondValue ? firstValue - secondValue : secondValue - firstValue;
 		
-		// 二値の差を表す変数"difference"を表示する
+		// 二値の差を表す変数"differenceValue"を表示する
 		System.out.println("二つの整数値の差は " + differenceValue + " です。");
 	}
 }
