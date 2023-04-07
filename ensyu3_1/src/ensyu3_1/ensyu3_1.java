@@ -27,11 +27,11 @@ public class ensyu3_1 {
 		// int型の変数"absoluteValue"に入力した整数値を代入する
 		int absoluteValue = standardInput.nextInt();
 		
-		if(absoluteValue < 0) {
-			// 入力された整数値"absoluteValue"が負の値なら符号を入れ替えた値を表示する
+		if(absoluteValue < 0) { // 入力された整数値"absoluteValue"が負の値であるなら
+			// 入力された値の符号を入れ替えた値を表示する
 			System.out.println("その値の絶対値は" + (-absoluteValue) + "です。");
-		} else {  
-			// 入力された整数値"absoluteValue"が負の値でないなら値をそのまま表示する
+		} else {  // 入力された整数値"absoluteValue"が負の値でないなら
+			// 入力された値をそのまま表示する
 			System.out.println("その値の絶対値は" + absoluteValue + "です。");
 		}
 		
