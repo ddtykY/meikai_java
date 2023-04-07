@@ -28,14 +28,14 @@ public class ensyu3_6 {
 		int integerValue = standardInput.nextInt();
 		
 		
-		if (integerValue <= 0) {
-			// 正でない値が入力された場合その旨を表示する
+		if (integerValue <= 0) { // "integerValue"が0以下、つまり正でない値が入力された場合
+			// 正でない値が入力された旨を表示する
 			System.out.println("正でない値が入力されました。");
-		} else if (integerValue % 10 == 0){
-			// "value"が5で割り切れる場合はその旨を表示する
+		} else if (integerValue % 10 == 0){ //　"integerValue"が10で割り切れる場合
+			// 入力された値が10の倍数である旨を表示する
 			System.out.println("その値は10の倍数です。");
-		} else {
-			// 二つの条件に当てはまらない場合は入力された値が10の倍数でない旨を表示する
+		} else { //　"integerValue"が正であり10で割り切れない場合
+			// 入力された値が10の倍数でない旨を表示する
 			System.out.println("その値は10の倍数ではありません。");
 		}
 		
