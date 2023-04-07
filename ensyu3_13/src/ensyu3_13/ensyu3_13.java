@@ -37,20 +37,20 @@ public class ensyu3_13 {
 		// int型の変数"thirdValue"に入力された整数値を代入する
 		int thirdValue = standardInput.nextInt();
 		
-		// 中央値を格納するためのint型の変数"median"を作り、
+		// 中央値を格納するためのint型の変数"medianNumber"を作り、
 		// そこにまず一つ目の整数値の"firstValue"を代入し、この後ほかの整数値と比較していく
-		int median = firstValue;
+		int medianNumber = firstValue;
 		
-		if (median > secondValue && median > thirdValue) {
+		if (medianNumber > secondValue && medianNumber > thirdValue) {
 			// "median"が他の二値のどちらよりも大きい場合、他の2値の大きいほうを"median"に代入する
-			median = secondValue > thirdValue ? secondValue : thirdValue;
-		} else if (median < secondValue && median < thirdValue) {
+			medianNumber = secondValue > thirdValue ? secondValue : thirdValue;
+		} else if (medianNumber < secondValue && medianNumber < thirdValue) {
 			// "median"が他の二値のどちらよりも小さい場合、他の2値の小さいほうを"median"に代入する
-			median = secondValue < thirdValue ? secondValue : thirdValue;
+			medianNumber = secondValue < thirdValue ? secondValue : thirdValue;
 		}
 		
 		// 全ての数を比較し求めた中央値"median"を表示する
-		System.out.println("中央値は " + median + " です。");
+		System.out.println("中央値は " + medianNumber + " です。");
 		
 		//standardInputを閉じる
 		standardInput.close();
