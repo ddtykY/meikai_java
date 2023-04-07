@@ -34,14 +34,14 @@ public class ensyu3_4 {
 		// double型の変数"secondvalue"に入力された整数値を代入する
 		double secondValue = standardInput.nextDouble();
 		
-		if (firstValue > secondValue) {
-			// "firstValue"のほうが大きいならその旨を表示する
+		if (firstValue > secondValue) { // "firstValue"のほうが大きいなら
+			// "firstValue"のほうが大きい旨を表示する
 			System.out.println("firstValueのほうが大きいです");
-		} else if (firstValue < secondValue){
-			// "secondValue"のほうが大きいなら旨を表示する
+		} else if (firstValue < secondValue){ //"secondValue"のほうが大きいなら
+			// "secondValue"のほうが大きい旨を表示する
 			System.out.println("secondValueのほうが大きいです");
-		} else {
-			// ほかのどの条件にも当てはまらないなら二つの変数が等しい旨を表示する
+		} else if (firstValue == secondValue) { // どちらも同じ値なら 
+			// 二つの変数が等しい旨を表示する
 			System.out.println("firstValueとsecondValueは同じ値です");
 		}
 		
