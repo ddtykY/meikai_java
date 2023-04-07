@@ -23,7 +23,7 @@ public class ensyu3_12 {
 		Scanner standardInput = new Scanner(System.in);
 		
 		// 整数値"firstValue"の入力を促す
-		System.out.print("整数値firstValue : ");
+		System.out.print("整数値firstValue  : ");
 		// int型の変数"firstValue"に入力された整数値を代入する
 		int firstValue = standardInput.nextInt();
 		
@@ -33,7 +33,7 @@ public class ensyu3_12 {
 		int secondValue = standardInput.nextInt();
 		
 		// 整数値"thirdValue"の入力を促す
-		System.out.print("整数値thirdValue : ");
+		System.out.print("整数値thirdValue  : ");
 		// int型の変数"thirdValue"に入力された整数値を代入する
 		int thirdValue = standardInput.nextInt();
 		
@@ -42,9 +42,9 @@ public class ensyu3_12 {
 		int minimumNumber = firstValue;
 		
 		// 二つ目の整数値"secondValue"と"minimumNumber"を比較し小さいほうを"minimumNumber"とする
-		if (minimumNumber > secondValue) minimumNumber = secondValue;
+		minimumNumber = minimumNumber < secondValue ? minimumNumber : secondValue;
 		// 三つ目の整数値"thirdValue"と"minimumNumber"を比較し小さいいほうを"minimumNumber"とする
-		if (minimumNumber > thirdValue) minimumNumber = thirdValue;
+		minimumNumber = minimumNumber < thirdValue ? minimumNumber : thirdValue;
 		
 		// 全ての数を比較し求めた最小値"minimumNumber"を表示する
 		System.out.println("最小値は " + minimumNumber + " です。");
