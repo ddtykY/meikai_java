@@ -20,23 +20,23 @@ public class ensyu2_9 {
 	 */
 	public static void main(String[] args) {
 		// Randomクラスのインスタンスを作成する
-		Random rand = new Random();
+		Random randomNumber = new Random();
 		
 		// 0.0以上1.0未満の実数値の乱数を生成しdouble型の変数"firstRealValue"に代入する
-		double firstRealValue = rand.nextDouble();
+		double firstRealValue = randomNumber.nextDouble();
 		// 0.0以上1.0未満の実数値"firstRealValue"を表示する。
 		System.out.println("0.0以上1.0未満の実数値 : " + firstRealValue);
 		
 		// 0.0以上1.0未満の実数値の乱数を生成しそれを10倍する、
 		// それにより0.0以上10.0未満の実数値を生成しdouble型の変数"secondRealValue"に代入する
-		double secondRealValue = rand.nextDouble() * 10;
+		double secondRealValue = randomNumber.nextDouble() * 10;
 		// 0.0以上1.0未満の実数値"secondRealValue"を表示する。
 		System.out.println("0.0以上10.0未満の実数値 : " + secondRealValue);
 		
 
 		// 0.0以上1.0未満の実数値の乱数を生成しそれを2倍し0.0以上2.0未満の実数値にする、
 		// そこから1.0引くことにより-1.0以上1.0未満の実数値を生成しdouble型の変数"thirdRealValue"に代入する
-		double thirdRealValue = rand.nextDouble() * 2 - 1.0;
+		double thirdRealValue = randomNumber.nextDouble() * 2 - 1.0;
 		// 0.0以上1.0未満の実数値"thirdRealValue"を表示する。
 		System.out.println("-1.0以上1.0未満の実数値 : " + thirdRealValue);
 	}
