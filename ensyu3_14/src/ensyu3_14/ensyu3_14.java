@@ -36,13 +36,13 @@ public class ensyu3_14 {
 		int minimumNumber; // 小さいほうの値を表す変数
 		int maximumNumber; // 大きいほうの値を表す変数
 		
-		if (firstValue < secondValue) {
-			// 1つ目の整数値のほうが小さい場合は小さいほうを表す"minimumNumber"に"firstValue"を代入
+		if (firstValue < secondValue) { // 1つ目の整数値のほうが小さい場合
+			// 小さいほうを表す"minimumNumber"に"firstValue"を代入
 			minimumNumber = firstValue;
 			// "minimumNumber"同様に大きいほうの"secondValue"を"maximumNumber"に代入
 			maximumNumber = secondValue;
-		} else {
-			// 2つ目の整数値のほうが小さい場合は小さいほうを表す"minimumNumber"に"secondValue"を代入
+		} else { // 2つ目の整数値のほうが小さい場合
+			//小さいほうを表す"minimumNumber"に"secondValue"を代入
 			minimumNumber = secondValue;
 			// "minimumNumber"同様に大きいほうの"firstValue"を"maximumNumber"に代入
 			maximumNumber = firstValue;
