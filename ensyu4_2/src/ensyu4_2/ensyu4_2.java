@@ -24,11 +24,11 @@ public class ensyu4_2 {
 		// Scannerクラスのインスタンスを作成
 		Scanner standardInput = new Scanner(System.in);
 		// Randomクラスのインスタンスを作成
-		Random random = new Random();
+		Random randomNumber = new Random();
 		
 		// 0～89の乱数を生成しそこに10を加算することで2桁の整数値(0～99)を作成し
 		// それをゲームの答えを表すint型の変数"answerNumber"に代入する
-		int answerNumber = random.nextInt(90) + 10; 
+		int answerNumber = randomNumber.nextInt(90) + 10; 
 		
 		// プレイヤーの解答を格納するint型の変数
 		int playerNumber;
