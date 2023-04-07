@@ -24,7 +24,7 @@ public class ensyu3_9 {
 		
 		// 実数値"firstValue"の入力を促す
 		System.out.print("実数値firstValue : ");
-		// double型の変数"firstValue"に入力された実数値値を代入する
+		// double型の変数"firstValue"に入力された実数値を代入する
 		double firstValue = standardInput.nextDouble();
 		
 		// 実数値"secondValue"の入力を促す
