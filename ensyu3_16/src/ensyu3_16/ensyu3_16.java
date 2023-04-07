@@ -37,31 +37,31 @@ public class ensyu3_16 {
 		// int型の変数"secondValue"に入力された整数値を代入する
 		int thirdValue = standardInput.nextInt();
 		
-		int temporary;  // 一時的に値を格納しておくための変数
+		int temporaryValue;  // 一時的に値を格納しておくための変数
 		
 		if (firstValue > secondValue) {  // 一つ目の値より二つ目が小さい場合
-			// "temporary"に"firstValue"を保存
-			temporary = firstValue;
+			// "temporaryValue"に"firstValue"を保存
+			temporaryValue = firstValue;
 			// 小さいほうのの値"secondValue"を大きいほうの変数"firstvalue"に代入
 			firstValue = secondValue;
-			// 保存しておいた"temporary"を"secondValue"に代入
-			secondValue = temporary;
+			// 保存しておいた"temporaryValue"を"secondValue"に代入
+			secondValue = temporaryValue;
 		}
 		if (firstValue > thirdValue) {  // 一つ目の値より三つ目が小さい場合
-			// "temporary"に"firstValue"を保存
-			temporary = firstValue;
+			// "temporaryValue"に"firstValue"を保存
+			temporaryValue = firstValue;
 			// 小さいほうのの値"thirdValue"を大きいほうの変数"firstvalue"に代入
 			firstValue = thirdValue;
 			// 保存しておいた"temporary"を"sthirdValue"に代入
-			thirdValue = temporary;
+			thirdValue = temporaryValue;
 		}
 		if (secondValue > thirdValue) {  // 二つ目の値より三つ目が小さい場合
 			// "temporary"に"secondValue"を保存
-			temporary = secondValue;
+			temporaryValue = secondValue;
 			// 小さいほうのの値"thirdValue"を大きいほうの変数"firstvalue"に代入
 			secondValue = thirdValue;
 			// 保存しておいた"temporary"を"thirdValue"に代入
-			thirdValue = temporary;
+			thirdValue = temporaryValue;
 		}
 		
 		// 降順にソートした旨を表示する
