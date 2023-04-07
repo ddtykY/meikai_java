@@ -20,22 +20,22 @@ public class ensyu2_7 {
 	 */
 	public static void main(String[] args) {
 		// Randomクラスのインスタンスを作成する
-		Random rand = new Random();
+		Random randomNumber = new Random();
 		
 		// 0～8の整数値をランダムに生成し1を加算することにより
 		// 1桁の正の整数値(1～9)を生成し、それをint型の変数"oneDigitPositive"に代入する。
-		int oneDigitPositive = rand.nextInt(9) + 1;
+		int oneDigitPositive = randomNumber.nextInt(9) + 1;
 		// 1桁の正の整数値"oneDigitPositive"を表示する
 		System.out.println("1桁の正の整数値 : " + oneDigitPositive);
 		
 		// "oneDigitPositive"と同様に1桁の正の整数値を生成、
 		// その符号を反転させた値をint型の変数"oneDigitNegaitive"に代入する。
-		int oneDigitNegaitive = -(rand.nextInt(9) + 1);
+		int oneDigitNegaitive = -(randomNumber.nextInt(9) + 1);
 		System.out.println("1桁の正の整数値 : " + oneDigitNegaitive);
 		
 		// 0～89の整数値をランダムに生成しそれに10を加算することにより
 		// 2桁の正の整数値(10～99)を生成し、それをint型の変数"twoDigitPositive"に代入する。
-		int twoDigitPositive = rand.nextInt(90) + 10;
+		int twoDigitPositive = randomNumber.nextInt(90) + 10;
 		System.out.println("1桁の正の整数値 : " + twoDigitPositive);
 	}
 }
