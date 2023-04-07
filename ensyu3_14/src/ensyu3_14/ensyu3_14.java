@@ -33,27 +33,27 @@ public class ensyu3_14 {
 		// int型の変数"secondValue"に入力された整数値を代入する
 		int secondValue = standardInput.nextInt();
 		
-		int minimum; // 小さいほうの値を表す変数
-		int maximum; // 大きいほうの値を表す変数
+		int minimumNumber; // 小さいほうの値を表す変数
+		int maximumNumber; // 大きいほうの値を表す変数
 		
 		if (firstValue < secondValue) {
-			// 1つ目の整数値のほうが小さい場合は小さいほうを表す"minimum"に"firstValue"を代入
-			minimum = firstValue;
-			// "minimum"同様に大きいほうの"secondValue"を"maximum"に代入
-			maximum = secondValue;
+			// 1つ目の整数値のほうが小さい場合は小さいほうを表す"minimumNumber"に"firstValue"を代入
+			minimumNumber = firstValue;
+			// "minimumNumber"同様に大きいほうの"secondValue"を"maximumNumber"に代入
+			maximumNumber = secondValue;
 		} else {
-			// 2つ目の整数値のほうが小さい場合は小さいほうを表す"minimum"に"secondValue"を代入
-			minimum = secondValue;
-			// "minimum"同様に大きいほうの"firstValue"を"maximum"に代入
-			maximum = firstValue;
+			// 2つ目の整数値のほうが小さい場合は小さいほうを表す"minimumNumber"に"secondValue"を代入
+			minimumNumber = secondValue;
+			// "minimumNumber"同様に大きいほうの"firstValue"を"maximumNumber"に代入
+			maximumNumber = firstValue;
 		}
 		
 		if (firstValue == secondValue) {
 			// 二つの値が同じ場合はその旨を表示する
 			System.out.println("二つの値は同じです");
 		} else {
-			System.out.println("小さいほうの値は" + minimum + "です。");
-			System.out.println("大きいほうの値は" + maximum + "です。");
+			System.out.println("小さいほうの値は" + minimumNumber + "です。");
+			System.out.println("大きいほうの値は" + maximumNumber + "です。");
 		}
 		
 		//standardInputを閉じる
