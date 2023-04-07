@@ -22,26 +22,26 @@ public class ensyu4_1 {
 		// Scannerクラスのインスタンスを作成
 		Scanner standardInput = new Scanner(System.in);
 		
-		int retry; // もう一度行うかどうかの確認用
+		int retryCheck; // もう一度行うかどうかの確認用
 		
 		do {
 			// 判定したい整数値の入力を促す
 			System.out.print("整数値 : ");
 			// int型の変数"value"に入力された整数値を代入する
-			int value = standardInput.nextInt();
+			int integerValue = standardInput.nextInt();
 			
-			if (value > 0) // "value"が0より大きければ
+			if (integerValue > 0) // "integerValue"が0より大きければ
 				System.out.println("その値は正です。"); // 正の整数値であるという旨を表示する
-			else if (value < 0) // "value"が0より小さければ
+			else if (integerValue < 0) // "integerValue"が0より小さければ
 				System.out.println("その値は負です。"); // 負の整数値であるという旨を表示する
-			else  // ほかのどの条件にも当てはまらなければ（valueが0ならば）
+			else  // ほかのどの条件にも当てはまらなければ（integerValueが0ならば）
 				System.out.println("その値は0です。"); // 0であるという旨を表示する
 			
 			// もう一度行うかどうかを確認するための整数値の入力を促す
 			System.out.print("もう一度？ 1…Yes / 0…No : ");
-			// 確認用のint型の変数"retry"に入力された値を代入する
-			retry = standardInput.nextInt();
-		} while (retry == 1);  // "retry"が1ならば繰り返す
+			// 確認用のint型の変数"retryCheck"に入力された値を代入する
+			retryCheck = standardInput.nextInt();
+		} while (retryCheck == 1);  // "retryCheck"が1ならば繰り返す
 		
 		//standardInputを閉じる
 		standardInput.close();
