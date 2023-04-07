@@ -1,6 +1,5 @@
 package ensyu3_10;
 
-//Scannerクラスを用いるためにimportする
 import java.util.Scanner;
 
 /*
@@ -33,12 +32,9 @@ public class ensyu3_10 {
 		int secondValue = standardInput.nextInt();
 		
 		// 条件演算子を用いて二つの数値の差を求めてint型の変数"difference"
-		int difference = firstValue > secondValue ? firstValue - secondValue : secondValue - firstValue;
+		int differenceValue = firstValue > secondValue ? firstValue - secondValue : secondValue - firstValue;
 		
 		// 二値の差を表す変数"difference"を表示する
-		System.out.println("二つの整数値の差は " + difference + " です。");
-		
-		//standardInputを閉じる
-		standardInput.close();
+		System.out.println("二つの整数値の差は " + differenceValue + " です。");
 	}
 }
