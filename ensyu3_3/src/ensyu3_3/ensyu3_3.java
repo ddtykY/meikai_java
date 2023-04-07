@@ -26,16 +26,16 @@ public class ensyu3_3 {
 		
 		// 整数値"value"の入力を促す
 		System.out.print("整数value : ");
-		// int型の変数"value"に入力された整数値を代入する
-		int value = standardInput.nextInt();
+		// int型の変数"integerValue"に入力された整数値を代入する
+		int integerValue = standardInput.nextInt();
 		
-		if (value > 0) {
+		if (integerValue > 0) {
 			// "value"が0より大きいなら正である旨を表示する
 			System.out.println("その値は正です");
-		} else if (value < 0){
+		} else if (integerValue < 0){
 			// "value"が0より小さいなら負である旨を表示する
 			System.out.println("その値は負です");
-		} else if (value == 0) {
+		} else if (integerValue == 0) {
 			// "value"が0であるならその旨を表示する
 			System.out.println("その値は0です");
 		}
