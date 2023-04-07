@@ -34,12 +34,12 @@ public class ensyu3_15 {
 		
 		
 		if (firstValue < secondValue) {  // 1つ目の整数値のほうが小さい場合
-			// 一時的に値を格納しておくint型の変数"temporary"を作り1つ目の値を代入
-			int temporary = firstValue;
+			// 一時的に値を格納しておくint型の変数"temporaryValue"を作り1つ目の値を代入
+			int temporaryValue = firstValue;
 			// 大きいほうの値"secondValue"を小さいほうの変数"firstvalue"に代入
 			firstValue = secondValue;
 			// 保存しておいた"temporary"を"secoundValue"に代入
-			secondValue = temporary;
+			secondValue = temporaryValue;
 		}
 		
 		// 降順にソートした旨を表示する
