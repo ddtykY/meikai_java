@@ -33,13 +33,11 @@ public class ensyu3_2 {
 		// int型の変数"secondValue"に入力された整数値を代入する
 		int secondValue = standardInput.nextInt();
 		
-		if(firstValue % secondValue == 0) {
-			// "firstValue"を"secondValue"で割った余りが0つまり
-			// "secondValue"が"firstValue"の約数ならその旨を表示する
+		if(firstValue % secondValue == 0) {// "firstValue"を"secondValue"で割った余りが0つまり"secondValue"が"firstValue"の約数なら
+			// "secondValue"は"firstValue"の約数である旨を表示する
 			System.out.println("secondValueはfirstValueの約数です。");
-		} else {
-			// "firstValue"を"secondValue"で割った余りが0でない、つまり
-			// "secondValue"が"firstValue"の約数でないならその旨を表示する
+		} else {// "firstValue"を"secondValue"で割った余りが0でない、つまり"secondValue"が"firstValue"の約数でないなら
+			// "secondValue"は"firstValue"の約数ではないその旨を表示する
 			System.out.println("secondValueはfirstValueの約数ではありません。");
 		}
 		
