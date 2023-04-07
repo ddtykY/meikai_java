@@ -29,14 +29,14 @@ public class ensyu3_3 {
 		// int型の変数"integerValue"に入力された整数値を代入する
 		int integerValue = standardInput.nextInt();
 		
-		if (integerValue > 0) {
-			// "value"が0より大きいなら正である旨を表示する
+		if (integerValue > 0) { // "integerValue"が0より大きいなら
+			// 入力された値が正である旨を表示する
 			System.out.println("その値は正です");
-		} else if (integerValue < 0){
-			// "value"が0より小さいなら負である旨を表示する
+		} else if (integerValue < 0){ // "integerValue"が0より小さいなら
+			// 入力された値が負である旨を表示する
 			System.out.println("その値は負です");
-		} else if (integerValue == 0) {
-			// "value"が0であるならその旨を表示する
+		} else if (integerValue == 0) { //"integerValue"が0であるな
+			// 入力された値が0である旨を表示する
 			System.out.println("その値は0です");
 		}
 		
