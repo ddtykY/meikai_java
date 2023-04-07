@@ -6,7 +6,7 @@ import java.util.Scanner;
  * クラス名:ensyu4_4
  * 概要    :演習問題4_4の回答クラスです。
  * 作成者  :山川勇輝
- * 作成日  :2023.04.06
+ * 作成日  :2023.04.07
  */
 public class ensyu4_4 {
 	/*
@@ -16,7 +16,7 @@ public class ensyu4_4 {
 	 * パラメータの説明 :なし
 	 * 返り値           :なし
 	 * 作成者           :山川勇輝
-	 * 作成日           :2023.04.06
+	 * 作成日           :2023.04.07
 	 */
 	public static void main(String[] args) {
 		// Scannerクラスのインスタンスを作成
