@@ -38,7 +38,7 @@ public class ensyu3_15 {
 			int temporaryValue = firstValue;
 			// 大きいほうの値"secondValue"を小さいほうの変数"firstvalue"に代入
 			firstValue = secondValue;
-			// 保存しておいた"temporary"を"secoundValue"に代入
+			// 保存しておいた"temporaryValue"を"secoundValue"に代入
 			secondValue = temporaryValue;
 		}
 		
