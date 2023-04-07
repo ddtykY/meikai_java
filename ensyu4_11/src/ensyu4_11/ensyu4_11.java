@@ -34,7 +34,7 @@ public class ensyu4_11 {
 			integerValue = standardInput.nextInt();
 		} while (integerValue <= 0);
 		
-		// for文を制御する変数"countDownNumber"を入力された"integerNumber"に初期化し繰り返すたびに
+		// for文を制御する変数"countDownNumber"を入力された"integerValue"に初期化し繰り返すたびに
 		// デクリメントすることでカウントダウンを実現させる
 		for(int countDownNumber = integerValue; countDownNumber >= 0; countDownNumber--)
 			System.out.println(countDownNumber); // "countDownNumber"を表示する
