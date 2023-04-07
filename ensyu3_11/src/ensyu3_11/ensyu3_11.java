@@ -32,14 +32,14 @@ public class ensyu3_11 {
 		// int型の変数"secondValue"に入力された整数値を代入する
 		int secondValue = standardInput.nextInt();
 		
-		// 条件演算子を用いて二つの数値の差を求めてint型の変数"difference"に代入する
-		int difference = firstValue > secondValue ? firstValue - secondValue : secondValue - firstValue;
+		// 条件演算子を用いて二つの数値の差を求めてint型の変数"differenceValue"に代入する
+		int differenceValue = firstValue > secondValue ? firstValue - secondValue : secondValue - firstValue;
 		
-		if (difference <= 10) {
-			// 二値の差が10以下ならその旨を表示する
+		if (differenceValue <= 10) { // 二値の差が10以下なら
+			// 入力された二つの値の差が10以下であえる旨を表示する
 			System.out.println("それらの差は10以下です。");
-		} else {
-			// 二値の差が10以下でないなら差が11以上である旨を表示する
+		} else { // 二値の差が10以下でないなら
+			// 入力された二つの値の差が11以上である旨を表示する
 			System.out.println("それらの差は11以上です。");
 		}
 		
