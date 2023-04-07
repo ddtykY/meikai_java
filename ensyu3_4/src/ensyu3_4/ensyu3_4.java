@@ -24,14 +24,14 @@ public class ensyu3_4 {
 		Scanner standardInput = new Scanner(System.in);
 		
 		// 実数値"firstValue"の入力を促す
-		System.out.print("整数firstValue : ");
-		// double型の変数"firstvalue"に入力された整数値を代入する
+		System.out.print("実数値firstValue : ");
+		// double型の変数"firstvalue"に入力された実数値を代入する
 		double firstValue = standardInput.nextDouble();
 		
 
 		// 実数値"secondValue"の入力を促す
-		System.out.print("整数secondValue : ");
-		// double型の変数"secondvalue"に入力された整数値を代入する
+		System.out.print("実数値secondValue : ");
+		// double型の変数"secondvalue"に入力された実数値を代入する
 		double secondValue = standardInput.nextDouble();
 		
 		if (firstValue > secondValue) { // "firstValue"のほうが大きいなら
