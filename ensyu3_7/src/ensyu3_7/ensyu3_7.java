@@ -28,17 +28,17 @@ public class ensyu3_7 {
 		int integerValue = standardInput.nextInt();
 		
 		
-		if (integerValue <= 0) {
-			// 正でない値が入力された場合その旨を表示する
+		if (integerValue <= 0) { // "integerValue"が0以下、つまり正でない値が入力された場合
+			// 入力された値が正でない旨を表示する
 			System.out.println("正でない値が入力されました。");
-		} else if (integerValue % 3 == 0){
-			// "value"が3で割り切れる場合はその旨を表示する
+		} else if (integerValue % 3 == 0){ // "integerValue"が3で割り切れる場合
+			// 入力された値が3で割り切れる旨を表示する
 			System.out.println("その値は3で割り切れます。");
-		} else if (integerValue % 3 == 1){
-			// "value"を3で割った余りが1の場合はその旨を表示する
+		} else if (integerValue % 3 == 1){ // "integerValue"を3で割った余りが1の場合
+			// 入力された値を3で割った余りが1である旨を表示する
 			System.out.println("その値を3で割った余りは1です。");
-		} else {
-			// ほかのどの条件にも当てはまらない場合は"value"を３で割った余りが2となることを表示する
+		} else { // "integerValue"が正の整数で3で割った余りが2の場合
+			// 入力された値を3で割った余りが2となることを表示する
 			System.out.println("その値を3で割った余りは2です。");	
 		}
 		
