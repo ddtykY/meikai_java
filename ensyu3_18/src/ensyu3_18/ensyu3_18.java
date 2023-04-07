@@ -26,10 +26,10 @@ public class ensyu3_18 {
 		System.out.println("季節を求めます");
 		// 月を表す整数値の入力を促す
 		System.out.print("何月ですか : ");
-		// int型の変数"month"に入力された整数値を代入する
-		int month = standardInput.nextInt();
+		// int型の変数"monthNumber"に入力された整数値を代入する
+		int monthNumber = standardInput.nextInt();
 		
-		switch (month) {  // "month"の値によって分岐させる
+		switch (monthNumber) {  // "monthNumber"の値によって分岐させる
 		  case  3:
 		  case  4:
 		  case  5: System.out.println("それは春です"); // "month"が3～5の場合は春であることを表示
