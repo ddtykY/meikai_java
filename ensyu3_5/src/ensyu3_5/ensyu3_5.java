@@ -28,14 +28,14 @@ public class ensyu3_5 {
 		int integerValue = standardInput.nextInt();
 		
 		
-		if (integerValue <= 0) {
-			// 正でない値が入力された場合その旨を表示する
+		if (integerValue <= 0) { // 正でない値が入力された(integerValueが0以下)なら
+			// 正でない値が入力された旨を表示する
 			System.out.println("正でない値が入力されました。");
-		} else if (integerValue % 5 == 0){
-			// "value"が5で割り切れる場合はその旨を表示する
+		} else if (integerValue % 5 == 0){ //"integerValue"が5で割り切れるなら
+			// 入力された値が5で割り切れる旨を表示する
 			System.out.println("その値は5で割り切れます。");
-		} else {
-			// 二つの条件に当てはまらない場合は入力された値が5で割り切れない旨を表示する
+		} else { //"integerValue"が5で割り切れないなら
+			// 入力された値が5で割り切れない旨を表示する
 			System.out.println("その値は5で割り切れません。");
 		}
 		
