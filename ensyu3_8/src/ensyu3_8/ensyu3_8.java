@@ -1,6 +1,5 @@
 package ensyu3_8;
 
-//Scannerクラスを用いるためにimportする
 import java.util.Scanner;
 
 /*
@@ -25,27 +24,24 @@ public class ensyu3_8 {
 		// 整数値"points"の入力を促す
 		System.out.print("点数 : ");
 		// int型の変数"points"に入力された整数値を代入する
-		int points = standardInput.nextInt();
+		int pointNumber = standardInput.nextInt();
 		
 		
-		if (points >= 0 && points <= 59) {
+		if (pointNumber >= 0 && pointNumber <= 59) {
 			// 点数が0～59の場合は不可と表示する
 			System.out.println("不可");
-		} else if (points >= 60 && points <= 69){
+		} else if (pointNumber >= 60 && pointNumber <= 69){
 			// 点数が60～69の場合は可と表示する
 			System.out.println("可");
-		} else if (points >= 70 && points <= 79){
+		} else if (pointNumber >= 70 && pointNumber <= 79){
 			// 点数が70～79の場合は良と表示する
 			System.out.println("良");
-		} else if (points >= 80 && points <= 100) {
+		} else if (pointNumber >= 80 && pointNumber <= 100) {
 			// 点数が80～100の場合は優と表示する
 			System.out.println("優");
 		} else {
 			// ほかのどの条件にも当てはまらない場合は不正な値であることを表示する
 			System.out.println("不正な値です");	
 		}
-		
-		//standardInputを閉じる
-		standardInput.close();
 	}
 }
