@@ -37,17 +37,17 @@ public class ensyu3_12 {
 		// int型の変数"thirdValue"に入力された整数値を代入する
 		int thirdValue = standardInput.nextInt();
 		
-		// 最小値を格納するためのint型の変数"minimum"を作り、
+		// 最小値を格納するためのint型の変数"minimumNumber"を作り、
 		// そこにまず一つ目の整数値の"firstValue"を代入し、この後ほかの整数値と比較していく
-		int minimum = firstValue;
+		int minimumNumber = firstValue;
 		
-		// 二つ目の整数値"secondValue"と"minimum"を比較し小さいほうを"minimum"とする
-		if (minimum > secondValue) minimum = secondValue;
-		// 三つ目の整数値"thirdValue"と"minimum"を比較し小さいいほうを"minimum"とする
-		if (minimum > thirdValue) minimum = thirdValue;
+		// 二つ目の整数値"secondValue"と"minimumNumber"を比較し小さいほうを"minimumNumber"とする
+		if (minimumNumber > secondValue) minimumNumber = secondValue;
+		// 三つ目の整数値"thirdValue"と"minimumNumber"を比較し小さいいほうを"minimumNumber"とする
+		if (minimumNumber > thirdValue) minimumNumber = thirdValue;
 		
-		// 全ての数を比較し求めた最小値"minimum"を表示する
-		System.out.println("最小値は " + minimum + " です。");
+		// 全ての数を比較し求めた最小値"minimumNumber"を表示する
+		System.out.println("最小値は " + minimumNumber + " です。");
 		
 		//standardInputを閉じる
 		standardInput.close();
