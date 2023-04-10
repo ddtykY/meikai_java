@@ -29,27 +29,42 @@ public class ensyu3_18 {
 		// int型の変数"monthNumber"に入力された整数値を代入する
 		int monthNumber = standardInput.nextInt();
 		
-		switch (monthNumber) {  // "monthNumber"の値によって分岐させる
+		// "monthNumber"の値によって分岐させる
+		switch (monthNumber) {
+		  // "month"が3～5の場合
 		  case  3:
 		  case  4:
-		  case  5: System.out.println("それは春です"); // "month"が3～5の場合は春であることを表示
-		           break;                              // これ以上表示しないようswich文を抜け出す
+		  case  5: // 春であることを表示
+		           System.out.println("それは春です");
+		           // これ以上表示しないようswich文を抜け出す
+		           break;
+		  // "month"が6～8の場合
 		  case  6:
 		  case  7:
-		  case  8: System.out.println("それは夏です"); // "month"が6～8の場合は夏であることを表示
-		           break;                              // これ以上表示しないようswich文を抜け出す
+		  case  8: // 夏であることを表示
+			       System.out.println("それは夏です");
+		           // これ以上表示しないようswich文を抜け出す
+		           break;
+		  // "month"が9～11の場合
 		  case  9:
 		  case 10:
-		  case 11: System.out.println("それは秋です"); // "month"が9～11の場合は秋であることを表示
-		           break;                              // これ以上表示しないようswich文を抜け出す
+		  case 11: //秋であることを表示
+		           System.out.println("それは秋です");
+		           // これ以上表示しないようswich文を抜け出す
+		           break;
+		  // "month"が12～1の場合
 		  case 12:
 		  case  1:
-		  case  2: System.out.println("それは冬です"); // "month"が12～1の場合は冬であることを表示
-		           break;                              // これ以上表示しないようswich文を抜け出す
-		  default: System.out.println("不正な値です"); // "month"が1～12でない場合は不正な値であると表示
-		           break;                              // これ以上表示しないようswich文を抜け出す
+		  case  2: // 冬であることを表示
+		           System.out.println("それは冬です");
+		           // これ以上表示しないようswich文を抜け出す
+		           break;
+		  // "month"が1～12でない場合
+		  default: // 不正な値であると表示
+		           System.out.println("不正な値です");
+		           // これ以上表示しないようswich文を抜け出す
+		           break;
 		}
-		
 		//standardInputを閉じる
 		standardInput.close();
 	}
