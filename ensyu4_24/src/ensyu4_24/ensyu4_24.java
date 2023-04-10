@@ -30,7 +30,7 @@ public class ensyu4_24 {
 		do { // 正の整数値が入力されるまで繰り返す 
 			// 2以上の正の整数の入力を促す
 			System.out.print("正の整数(2～): ");
-			// int型の変数"stepNumber"を入力された値で初期化する
+			// int型の変数"integerValue"を入力された値で初期化する
 			integerValue = standardInput.nextInt();
 		} while (integerValue <= 1); // "integerValue"が1以下である場合繰り返す
 		
