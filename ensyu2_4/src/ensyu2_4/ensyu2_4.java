@@ -21,15 +21,15 @@ public class ensyu2_4 {
 		//Scannerクラスのインスタンスを作成する
 		Scanner standardInput = new Scanner(System.in);
 
-		// 整数値"value"の入力を促す
+		// 整数値"integerValue"の入力を促す
 		System.out.print("整数値 : ");
-		// "value"に整数値を読み込む
-		int value = standardInput.nextInt();
+		// "integerValue"に整数値を読み込む
+		int integerValue = standardInput.nextInt();
 		
-		//"value"に10を加えた値を表示する
-		System.out.println("10を加えた値は" + (value + 10) + "です。");
-		//"value"から10を減じた値を表示する
-		System.out.println("10を減じた値は" + (value - 10) + "です。");
+		//"integerValue"に10を加えた値を表示する
+		System.out.println("10を加えた値は" + (integerValue + 10) + "です。");
+		//"integerValue"から10を減じた値を表示する
+		System.out.println("10を減じた値は" + (integerValue - 10) + "です。");
 		
 		//standardInputを閉じる
 		standardInput.close();
