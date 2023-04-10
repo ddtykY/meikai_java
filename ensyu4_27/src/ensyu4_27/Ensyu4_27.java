@@ -34,7 +34,7 @@ public class Ensyu4_27 {
 		do {
 			// 回数制限の入力を促す
 			System.out.print("何回までに当てますか : ");
-			// int型の変数"limitNumber"を入力された値で初期化する
+			// int型の変数"limitNumber"に入力された値を代入する
 			limitNumber = standardInput.nextInt();
 		} // "limitNumber"が0以下である場合繰り返す
 		while (limitNumber <= 0);
