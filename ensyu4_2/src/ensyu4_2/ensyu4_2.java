@@ -32,17 +32,25 @@ public class ensyu4_2 {
 		
 		// プレイヤーの解答を格納するint型の変数
 		int playerNumber;
+		// プレイヤーに解答をさせる処理をプレイヤーが正解するまで繰り返す
 		do {
 			// 解答することを促す
 			System.out.print("いくつかな（2桁） : ");
 			// "playerNumber"に入力した値を代入する
 			playerNumber = standardInput.nextInt();
 			
-			if (playerNumber > answerNumber)               // プレイヤーの解答がゲームの答えより大きければ
-				System.out.println("もっと小さな数だよ");  // 答えはその解答よりも小さいということを伝える
-			else if (playerNumber < answerNumber)          // プレイヤーの解答がゲームの答えより小さければ
-				System.out.println("もっと大きな数だよ");  // 答えはその解答よりも大きいということを伝える
-		} while (playerNumber != answerNumber);  // プレイヤーの解答が間違っている限り繰り返す
+			// プレイヤーの解答がゲームの答えより大きければ
+			if (playerNumber > answerNumber) {
+				// 答えはその解答よりも小さいということを伝える
+				System.out.println("もっと小さな数だよ"); 
+			}
+			// プレイヤーの解答がゲームの答えより小さければ
+			else if (playerNumber < answerNumber) {
+				// 答えはその解答よりも大きいということを伝える
+				System.out.println("もっと大きな数だよ");
+			}
+		} // プレイヤーの解答が間違っている限り繰り返す
+ 		  while (playerNumber != answerNumber);
 		
 		// 繰り返しを終えてプレイヤーの解答がゲームの答えと一致した場合、正解である旨を伝える
 		System.out.println("正解です。");
