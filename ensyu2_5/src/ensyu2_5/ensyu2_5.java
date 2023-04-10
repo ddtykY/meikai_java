@@ -23,12 +23,12 @@ public class ensyu2_5 {
 		
 		// 実数値"firstvalue"の入力を促す
 		System.out.print("firstValueの値 : ");
-		// "firstValue"に整数値を読み込む
+		// "firstValue"に実数値を読み込む
 		double firstValue = standardInput.nextDouble();
 
 		// 実数値"secondvalue"の入力を促す
 		System.out.print("firstValueの値 : ");
-		// "secondVvalue"に整数値を読み込む
+		// "secondVvalue"に実数値を読み込む
 		double secondValue = standardInput.nextDouble();
 		
 		//二つの実数値の合計を表示する
