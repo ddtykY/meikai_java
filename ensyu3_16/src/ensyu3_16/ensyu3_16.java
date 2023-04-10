@@ -37,7 +37,8 @@ public class ensyu3_16 {
 		// int型の変数"secondValue"に入力された整数値を代入する
 		int thirdValue = standardInput.nextInt();
 		
-		int temporaryValue;  // 一時的に値を格納しておくための変数
+		// 一時的に値を格納しておくための変数
+		int temporaryValue; 
 		
 		if (firstValue > secondValue) {  // 一つ目の値より二つ目が小さい場合
 			// "temporaryValue"に"firstValue"を保存
