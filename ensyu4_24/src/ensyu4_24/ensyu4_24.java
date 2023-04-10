@@ -27,8 +27,8 @@ public class ensyu4_24 {
 		// 入力された正の整数値を格納する変数
 		int integerValue;
 		
-		do { // 段数として正の整数値が入力されるまで繰り返す 
-			// 段数の入力を促す
+		do { // 正の整数値が入力されるまで繰り返す 
+			// 2以上の正の整数の入力を促す
 			System.out.print("正の整数(2～): ");
 			// int型の変数"stepNumber"を入力された値で初期化する
 			integerValue = standardInput.nextInt();
