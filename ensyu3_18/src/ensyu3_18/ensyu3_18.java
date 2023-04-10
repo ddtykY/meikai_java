@@ -52,7 +52,7 @@ public class ensyu3_18 {
 		           System.out.println("それは秋です");
 		           // これ以上表示しないようswich文を抜け出す
 		           break;
-		  // "month"が12～1の場合
+		  // "month"が1か2あるいは12の場合
 		  case 12:
 		  case  1:
 		  case  2: // 冬であることを表示
