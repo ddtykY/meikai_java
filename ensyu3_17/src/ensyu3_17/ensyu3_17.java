@@ -22,10 +22,14 @@ public class ensyu3_17 {
 		// Randomクラスのインスタンスを作成
 		Random randomNumber = new Random();
 		
-		switch (randomNumber.nextInt(3)) {  // 0～2のいずれかの値を乱数で生成しその値によって分岐させる
-		  case 0 : System.out.println("グー");   break; // 0の場合はグーを表示しswich文を抜け出す
-		  case 1 : System.out.println("チョキ"); break; // 1の場合はチョキを表示しswich文を抜け出す
-		  case 2 : System.out.println("パー");   break; // 2の場合はパーを表示しswich文を抜け出す
+		// 0～2のいずれかの値を乱数で生成しその値によって分岐させる
+		switch (randomNumber.nextInt(3)) {
+		  // 0の場合はグーを表示しswich文を抜け出す
+		  case 0 : System.out.println("グー");   break;
+		  // 1の場合はチョキを表示しswich文を抜け出す
+		  case 1 : System.out.println("チョキ"); break;
+		  // 2の場合はパーを表示しswich文を抜け出す
+		  case 2 : System.out.println("パー");   break;
 		}
 	}
 
