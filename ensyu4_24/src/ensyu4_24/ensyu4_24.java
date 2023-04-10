@@ -32,7 +32,7 @@ public class ensyu4_24 {
 			System.out.print("正の整数(2～): ");
 			// int型の変数"stepNumber"を入力された値で初期化する
 			integerValue = standardInput.nextInt();
-		} while (integerValue <= 1); // "integerValue"が0以下である場合繰り返す
+		} while (integerValue <= 1); // "integerValue"が1以下である場合繰り返す
 		
 		// 素数の判定は2以上"integerValue"未満のいずれの数でも割り切れないかで行うため
 		// for文の制御を行うint型の"countNumber"を2で初期化し,入力された"integerValue-1"まで繰り返す
