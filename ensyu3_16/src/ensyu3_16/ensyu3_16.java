@@ -65,7 +65,7 @@ public class ensyu3_16 {
 			thirdValue = temporaryValue;
 		}
 		
-		// 降順にソートした旨を表示する
+		// 昇順にソートした旨を表示する
 		System.out.println("\n昇順にソートしました。\n");
 		// 一番小さい"firstValue"を表示する
 		System.out.println("整数firstValue  : " + firstValue);
