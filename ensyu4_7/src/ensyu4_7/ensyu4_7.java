@@ -30,8 +30,11 @@ public class ensyu4_7 {
 		int countNumber = 0;
 		// インクリメントされていく"countNumber"が入力された"quantityNumber"以下の間繰り返す
 		while (countNumber < quantityNumber) {
-			if (countNumber % 2 != 0) System.out.print('*');  // "countNumber"が奇数の場合*を表示する
-			else System.out.print('+');                       // "countNumber"が偶数の場合+を表示する
+			// "countNumber"が奇数の場合*を表示する
+			if (countNumber % 2 != 0) System.out.print('*');
+			// "countNumber"が偶数の場合+を表示する
+			else System.out.print('+');
+			// "countNumber"をインクリメントしループ回数を数える
 			countNumber++;
 		}
 		// 入力された値が1以上なら改行文字を出力する
