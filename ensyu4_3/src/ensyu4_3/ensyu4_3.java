@@ -37,12 +37,13 @@ public class ensyu4_3 {
 		// 小さい方の数字を表す変数
 		int minimumNumber = firstValue < secondValue ? firstValue : secondValue;
 		
-		
-		do {// "minimumNumber"を表示し1加算することを"maximumNumber"と同じ値になるまで繰り返すことで全整数の表示を行う
+		// "minimumNumber"を表示し1加算することを"maximumNumber"と同じ値になるまで繰り返すことで全整数の表示を行う
+		do {
 			// 整数"minimumNumber"を表示する
 			System.out.print(minimumNumber + " ");
 			// "minimumNumber"を1増やす
 			minimumNumber++;
-		} while (minimumNumber <= maximumNumber);  // "minimumNumber"が"maximumNumber"以下の場合繰り返す
+		// "minimumNumber"が"maximumNumber"以下の場合繰り返す
+		} while (minimumNumber <= maximumNumber);
 	}
 }
