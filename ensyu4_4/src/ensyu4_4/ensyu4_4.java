@@ -24,17 +24,20 @@ public class ensyu4_4 {
 		
 		//カウントダウンを行う旨を表示する
 		System.out.println("カウントダウンします。");
+		// カウントダウンに用いる数でユーザーの入力した値を格納する変数
+		int countNumber;
 		
-		int countNumber;  // カウントダウンに用いる数でユーザーの入力した値を格納する変数
-		
-		do {// 正の整数値が入力されるまで何度もユーザーに値を入力させる
+		// 正の整数値が入力されるまで何度もユーザーに値を入力させる
+		do {
 			// 正の整数値の入力を促す
 			System.out.print("正の整数値 : ");
 			// "countNumber"に入力された値を代入する
 			countNumber = standardInput.nextInt();
-		} while (countNumber <= 0); // 正の整数値が入力されるまで繰り返す 
+		// 正の整数値が入力されるまで繰り返す 
+		} while (countNumber <= 0);
 		
-		while (countNumber >= 0) { // "countNumber"が0以上の場合繰り返す、1ずつ減らすことでカウントダウンを実現させる
+		// "countNumber"が0以上の場合繰り返す、1ずつ減らすことでカウントダウンを実現させる
+		while (countNumber >= 0) {
 			// "countNumber"の値を表示する
 			System.out.println(countNumber);
 			// "countNumber"を1減らす
