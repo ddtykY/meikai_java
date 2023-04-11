@@ -24,17 +24,20 @@ public class ensyu4_8 {
 		// 入力された値を格納する変数"integerValue"を宣言する
 		int integerValue;
 		
+		// 整数を入力させる処理を正の整数値が入力されるまで繰り返す
 		do {
 			// 正の整数値の入力を促す
 			System.out.print("整数値 : ");
 			// int型の変数"integerValue"に入力された値を代入する
 			integerValue = standardInput.nextInt();
-		} while (integerValue <= 0); // "integerValue"が正の整数値でない場合繰り返す		
+		// "integerValue"が正の整数値でない場合繰り返す
+		} while (integerValue <= 0);
 		
 		//桁数を表す"digitNumber"を初期化する
 		int digitNumber = 0;
 		
-		while (integerValue > 0) { // "integerValue"が0より大きい間繰り返す
+		// "integerValue"が0より大きい間繰り返す
+		while (integerValue > 0) {
 			// "integerValue"を10で割る
 			integerValue /= 10;
 			// "digitNumber"をインクリメントすることでここまでの桁数を数える
