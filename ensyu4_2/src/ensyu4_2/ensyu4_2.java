@@ -43,14 +43,13 @@ public class ensyu4_2 {
 			if (playerNumber > answerNumber) {
 				// 答えはその解答よりも小さいということを伝える
 				System.out.println("もっと小さな数だよ"); 
-			}
 			// プレイヤーの解答がゲームの答えより小さければ
-			else if (playerNumber < answerNumber) {
+			} else if (playerNumber < answerNumber) {
 				// 答えはその解答よりも大きいということを伝える
 				System.out.println("もっと大きな数だよ");
 			}
-		} // プレイヤーの解答が間違っている限り繰り返す
- 		  while (playerNumber != answerNumber);
+		// プレイヤーの解答が間違っている限り繰り返す
+		} while (playerNumber != answerNumber);
 		
 		// 繰り返しを終えてプレイヤーの解答がゲームの答えと一致した場合、正解である旨を伝える
 		System.out.println("正解です。");
