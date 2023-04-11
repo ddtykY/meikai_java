@@ -3,7 +3,7 @@ package ensyu5_2;
 import java.util.Scanner;
 
 /*
- *  クラス名 :ensyu5_2
+ *  クラス名 :Ensyu5_2
  *  概要     :演習問題5-2の解答クラスです。
  *  作成者   :山川勇輝
  *  作成日   :2023.04.10
