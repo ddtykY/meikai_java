@@ -41,10 +41,12 @@ public class ensyu4_21_bottomRight {
 		for (int lineNumber = 0; lineNumber < stepNumber; lineNumber++) {
 			// 行と同様に列を表すint型の"columnNumber"を0で初期化し、"stepNumber"回だけ繰り返す
 			for (int columnNumber = 0; columnNumber < stepNumber  ; columnNumber++) {
-				if (columnNumber < stepNumber - lineNumber - 1) { // "columNumber"が"lineNumber-lineNumber-1"より小さければ
+				// "columNumber"が"lineNumber-lineNumber-1"より小さければ
+				if (columnNumber < stepNumber - lineNumber - 1) {
 					// 空白を表示する
 					System.out.print(" ");
-				} else { // "columNumber"が"lineNumber"以上ならば
+				// "columNumber"が"lineNumber"以上ならば
+				} else {
 					// *を表示する
 					System.out.print('*');
 				}

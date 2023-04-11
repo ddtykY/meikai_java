@@ -40,10 +40,12 @@ public class ensyu4_21_upperRight {
 		for (int lineNumber = 0; lineNumber < stepNumber; lineNumber++) {
 			// 行と同様に列を表すint型の"columnNumber"を0で初期化し、"stepNumber"回だけ繰り返す
 			for (int columnNumber = 0; columnNumber < stepNumber; columnNumber++) {
-				if (columnNumber < lineNumber) { // "columNumber"が"lineNumber"より小さければ
+				// "columNumber"が"lineNumber"より小さければ
+				if (columnNumber < lineNumber) {
 					// 空白を表示する
 					System.out.print(" ");
-				} else { // "columNumber"が"lineNumber"以上ならば
+				// "columNumber"が"lineNumber"以上ならば
+				} else {
 					// *を表示する
 					System.out.print('*');
 				}
