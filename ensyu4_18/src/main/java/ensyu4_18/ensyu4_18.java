@@ -20,15 +20,24 @@ public class ensyu4_18 {
 	public static void main(String[] args) {
 		// Scannerクラスのインスタンスを作成
 		Scanner standardInput = new Scanner(System.in);
-		
-		// 整数値"integerValue"の入力を促す
-		System.out.print("整数値integerValue : ");
-		// 入力された整数値をint型の変数"integeValue"に代入する
-		int integerValue = standardInput.nextInt();
+
+		// 入力された値を格納する変数
+		int integerValue;
+
+		// 整数を入力させる処理を正の整数値が入力されるまで繰り返す
+		do {
+			// 正の整数値の入力を促す
+			System.out.print("正の整数値integerValue : ");
+			// 入力された値をint型の変数"integerValue"に代入する
+			integerValue = standardInput.nextInt();
+		// "integerValue"が0以下（正の整数値ではない）間繰り返す
+		} while (integerValue <= 0);
 		
 		// 1から入力された整数値までなのでfor文の制御に利用する"countNumber"を1で初期化し
 		// 入力された整数値"integerValue"回処理を繰り返す
-		for(int countNumber = 1; countNumber <= integerValue; countNumber++)
-			System.out.println(countNumber + "の2乗は" + countNumber*countNumber); // countNumberの2乗を表示する
+		for(int countNumber = 1; countNumber <= integerValue; countNumber++) {
+			// countNumberの2乗を表示する
+			System.out.println(countNumber + "の2乗は" + countNumber*countNumber);
+		}
 	}
 }
