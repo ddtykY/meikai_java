@@ -26,36 +26,44 @@ public class ensyu4_19 {
 		//入力された整数値を格納する変数
 		int monthNumber;
 		
-		do { // 入力された月の季節を表示し、"retryCheck"が1である場合繰り返す
-			do { // 入力された値が1～12でないうちは繰り返す
+		 // 入力された月の季節を表示し、"retryCheck"が1である場合繰り返す
+		do {
+			 // 入力された値が1～12でないうちは繰り返す
+			do {
 				// 季節を求めることを伝え、整数値の入力を促す
 				System.out.print("季節を求めます。\n何月ですか : ");
 				// 入力された整数値をint型の変数"monthNumber"に代入する
 				monthNumber = standardInput.nextInt();
 				// 少し見づらかったため改行文字を出力する
 				System.out.println();
-			} while (monthNumber < 1 || monthNumber > 12); // 入力された値が1～12でない場合繰り返す
+			// 入力された値が1～12でない場合繰り返す
+			} while (monthNumber < 1 || monthNumber > 12);
 			
-			if (monthNumber >= 3 && monthNumber <= 5) { // 入力された値(月)が3～5の場合
+			// 入力された値(月)が3～5の場合
+			if (monthNumber >= 3 && monthNumber <= 5) {
 				// 季節が春である旨を表示する
 				System.out.println("それは春です");
-			} else if (monthNumber >= 6 && monthNumber <= 8) { // 入力された値(月)が6～8の場合
+			// 入力された値(月)が6～8の場合
+			} else if (monthNumber >= 6 && monthNumber <= 8) {
 				// 季節が夏である旨を表示する
 				System.out.println("それは夏です");
-			} else if (monthNumber >= 9 && monthNumber <= 11) { // 入力された値(月)が9～11の場合
+			// 入力された値(月)が9～11の場合
+			} else if (monthNumber >= 9 && monthNumber <= 11) {
 				// 季節が秋である旨を表示する
 				System.out.println("それは秋です");
-			} else if (monthNumber == 12 || monthNumber == 1 || monthNumber == 2) { // 入力された値(月)が1・2・12の場合
+			// 入力された値(月)が1・2・12の場合
+			} else if (monthNumber == 12 || monthNumber == 1 || monthNumber == 2) {
 				// 季節が冬である旨を表示する
 				System.out.println("それは冬です");
 			}
 			
 			// もう1度行うかどうかの選択を促す
-			System.out.print("\nもう一度？ 1…Yes / 0…No : ");
+			System.out.print("\nもう一度？ 1…Yes / Other…No : ");
 			// int型の変数"retryCheck"に入力された値を代入する
 			retryCheck = standardInput.nextInt();
 			// 改行文字を出力する
 			System.out.println();
-		} while (retryCheck == 1); // "retryCheck"が1である（もう一度行うが選択された）場合繰り返す
+		 // "retryCheck"が1である（もう一度行うが選択された）場合繰り返す
+		} while (retryCheck == 1);
 	}
 }
