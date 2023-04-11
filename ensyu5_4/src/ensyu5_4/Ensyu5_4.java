@@ -12,7 +12,7 @@ public class Ensyu5_4 {
 	/*
 	 * 関数名           :main
 	 * メソッドの説明   :三つの整数値を読み込んでその合計と平均を求める。
-	 *                   このとき平均はキャスト演算子を利用して求め実数として表示する
+	 *                   このとき平均は実数として表示する
 	 * パラメータの説明 :なし
 	 * 返り値           :なし
 	 * 作成者           :山川勇輝
@@ -40,7 +40,6 @@ public class Ensyu5_4 {
 		// 合計を表示する
 		System.out.println("合計は " + (firstValue+secondValue+thirdValue) + " です。");
 		//平均を表示する
-		System.out.println("平均は " + (double)(firstValue+secondValue+thirdValue)/2 + " です。");
-		
+		System.out.println("平均は " + (firstValue+secondValue+thirdValue)/2.0 + " です。");
 	}
 }
