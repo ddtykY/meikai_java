@@ -24,6 +24,7 @@ public class ensyu4_1 {
 		
 		int retryCheck; // もう一度行うかどうかの確認用
 		
+		// 読み込んだ整数が正か負か判定する処理を"retryCeck"が1以外の値になるまで繰り返す
 		do {
 			// 判定したい整数値の入力を促す
 			System.out.print("整数値 : ");
@@ -41,7 +42,8 @@ public class ensyu4_1 {
 			System.out.print("もう一度？ 1…Yes / Other…No : ");
 			// 確認用のint型の変数"retryCheck"に入力された値を代入する
 			retryCheck = standardInput.nextInt();
-		} while (retryCheck == 1);  // "retryCheck"が1ならば繰り返す
+		// "retryCheck"が1ならば繰り返す
+		} while (retryCheck == 1);
 		
 		//standardInputを閉じる
 		standardInput.close();
