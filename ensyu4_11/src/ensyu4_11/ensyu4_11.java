@@ -33,7 +33,7 @@ public class ensyu4_11 {
 			System.out.print("正の整数値 : ");
 			// 入力された値をint型の変数"integerValue"に代入する
 			integerValue = standardInput.nextInt();
-		// "integerValue"が0以下（負の値）の場合繰り返す
+		// "integerValue"が0以下の（正の整数値ではない）場合繰り返す
 		} while (integerValue <= 0);
 		
 		// for文を制御する変数"countDownNumber"を入力された"integerValue"に初期化し繰り返すたびに
