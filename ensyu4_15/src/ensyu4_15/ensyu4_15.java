@@ -24,27 +24,33 @@ public class ensyu4_15 {
 		int startHeight;     // 身長の範囲の開始値を表す変数
 		int endHeight;       // 身長の範囲の終了値を表す変数
 		int incrementHeight; //表の身長の増分を表す変数
-		
-		do {// 身長の開始値として正の整数値が入力されるまで繰り返すdo文
+
+		// 身長の開始値として正の整数値が入力されるまで繰り返すdo文
+		do {
 			// 身長の範囲の開始値の入力を促す
 			System.out.print("何cmから : ");
 			// 入力された値をint型の変数"startHeight"に代入する
 			startHeight = standardInput.nextInt();
-		} while (startHeight <= 0); // 正の整数値が入力されるまで繰り返す
-		
-		do {// 身長の終了値として正の整数値が入力されるまで繰り返すdo文
+		  // 正の整数値が入力されるまで繰り返す
+		} while (startHeight <= 0);
+
+		// 身長の終了値として正の整数値が入力されるまで繰り返すdo文
+		do {
 			// 身長の範囲の終了値の入力を促す
 			System.out.print("何cmまで : ");
 			// 入力された値をint型の変数"endHeight"に代入する
 			endHeight = standardInput.nextInt();
-		} while (endHeight <= 0); // 正の整数値が入力されるまで繰り返す
-		
-		do {// 身長の増分として正の整数値が入力されるまで繰り返すdo文
+		  // 正の整数値が入力されるまで繰り返す
+		} while (endHeight <= 0);
+
+		// 身長の増分として正の整数値が入力されるまで繰り返すdo文
+		do {
 			// 表の身長の増分の入力を促す
 			System.out.print("何cmごと : ");
 			// 入力された値をint型の変数"incrementHeight"に代入する
 			incrementHeight = standardInput.nextInt();
-		} while (incrementHeight <= 0); // 正の整数値が入力されるまで繰り返す
+		  // 正の整数値が入力されるまで繰り返す
+		} while (incrementHeight <= 0);
 		
 		// 表の各列のタイトルを表示する
 		System.out.println("身長  標準体重");
