@@ -33,8 +33,8 @@ public class ensyu4_25_1 {
 			System.out.print("何個加算しますか : ");
 			// int型の変数"quantityNumber"を入力された値で初期化する
 			quantityNumber = standardInput.nextInt();
-		} // "quantityNumber"が0以下である場合繰り返す
-		  while (quantityNumber <= 0);
+		// "quantityNumber"が0以下である場合繰り返す
+		} while (quantityNumber <= 0);
 		
 		// 合計を表す変数を0で初期化する
 		int sumValue = 0;
