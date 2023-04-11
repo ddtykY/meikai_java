@@ -21,18 +21,28 @@ public class ensyu4_16 {
 		// Scannerクラスのインスタンスを作成
 		Scanner standardInput = new Scanner(System.in);
 		
-		// 表示する個数の入力を促す
-		System.out.print("何個*を表示しますか : ");
-		// 入力された値を個数を表すint型の変数"quantityValue"に代入する
-		int quantityValue = standardInput.nextInt();
+		// 入力された値の個数を表すint型の変数
+		int quantityValue;
+		
+		// 表示する個数を入力させる処理を正の整数値が入力されるまで繰り返す
+		do {
+			// 表示する個数の入力を促す
+			System.out.print("何個*を表示しますか : ");
+			// 入力された値を個数を表すint型の変数"quantityValue"に代入する
+			quantityValue = standardInput.nextInt();
+		 // "quantityValue"が0以下(正の整数値でない）場合繰り返す
+		} while (quantityValue <= 0);
 		
 		// "quantityNumber"回だけ繰り返すこの時5個ごとの改行処理を行いやすいようにするため
 		// for文の制御に使う"countNumber"を1で初期化する
 		for (int countNumber = 1; countNumber <= quantityValue; countNumber++) {
 			// *を表示する
 			System.out.print('*');
-			if (countNumber % 5 == 0)  // "countNumber"が5の倍数の時
-				System.out.println(); // 改行する
+			// "countNumber"が5の倍数の時
+			if (countNumber % 5 == 0) {
+				// 改行する
+				System.out.println();
+			}
 		}		
 	}
 }
