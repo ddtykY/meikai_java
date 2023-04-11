@@ -27,17 +27,21 @@ public class ensyu4_11 {
 		// 入力された値を格納する変数
 		int integerValue;
 		
+		// 整数値を入力させる処理を正の整数値が入力されるまで繰り返す
 		do {
 			// 正の整数値の入力を促す
 			System.out.print("正の整数値 : ");
 			// 入力された値をint型の変数"integerValue"に代入する
 			integerValue = standardInput.nextInt();
+		// "integerValue"が0以下（負の値）の場合繰り返す
 		} while (integerValue <= 0);
 		
 		// for文を制御する変数"countDownNumber"を入力された"integerValue"に初期化し繰り返すたびに
 		// デクリメントすることでカウントダウンを実現させる
-		for(int countDownNumber = integerValue; countDownNumber >= 0; countDownNumber--)
-			System.out.println(countDownNumber); // "countDownNumber"を表示する
+		for(int countDownNumber = integerValue; countDownNumber >= 0; countDownNumber--) {
+			// "countDownNumber"を表示する
+			System.out.println(countDownNumber);
+		}
 		
 		// 改行文字を出力する
 		System.out.println(); 
