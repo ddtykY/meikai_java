@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Ensyu5_2 {
 	/*
 	 * 関数名           :main
-	 * メソッドの説明   :
+	 * メソッドの説明   :float型の変数とdouble型の変数を読み込んでそれぞれ表示する
 	 * パラメータの説明 :なし
 	 * 返り値           :なし
 	 * 作成者           :山川勇輝
