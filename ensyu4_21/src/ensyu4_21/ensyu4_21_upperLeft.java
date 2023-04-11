@@ -24,10 +24,17 @@ public class ensyu4_21_upperLeft {
 		// 左上が直角の三角形を表示する旨を示す
 		System.out.println("左上直角の三角形を表示します。");
 		
-		// 段数の入力を促す
-		System.out.print("段数 : ");
-		// int型の変数"stepNumber"を入力された値で初期化する
-		int stepNumber = standardInput.nextInt();
+		// 入力された段数を格納する変数
+		int stepNumber;
+		
+		// 段数を入力させる処理を正の整数値が入力されるまで繰り返す
+		do {
+			// 段数の入力を促す
+			System.out.print("段数 : ");
+			// int型の変数"stepNumber"に入力された値を代入する
+			stepNumber = standardInput.nextInt();
+		// "stepNumber"が0以下（正の整数値でない）場合繰り返す
+		} while (stepNumber <= 0);
 		
 		// 行を表しfor文の制御を行うint型の"lineNumber"を0で初期化し入力された段数である"stepNumber"回だけ繰り返す
 		for (int lineNumber = 0; lineNumber < stepNumber; lineNumber++) {
