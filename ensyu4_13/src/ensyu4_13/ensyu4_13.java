@@ -33,7 +33,7 @@ public class ensyu4_13 {
 			System.out.print("正の整数値integerValue : ");
 			// 入力された値をint型の変数"integerValue"に代入する
 			integerValue = standardInput.nextInt();
-			// "integerValue"が0以下（正の整数値ではない）間繰り返す
+		// "integerValue"が0以下（正の整数値ではない）間繰り返す
 		} while (integerValue <= 0);
 
 		// 合計を格納する変数"sumValue"を0で初期化する
