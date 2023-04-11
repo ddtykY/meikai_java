@@ -38,7 +38,7 @@ public class ensyu4_1 {
 				System.out.println("その値は0です。"); // 0であるという旨を表示する
 			
 			// もう一度行うかどうかを確認するための整数値の入力を促す
-			System.out.print("もう一度？ 1…Yes / 0…No : ");
+			System.out.print("もう一度？ 1…Yes / Other…No : ");
 			// 確認用のint型の変数"retryCheck"に入力された値を代入する
 			retryCheck = standardInput.nextInt();
 		} while (retryCheck == 1);  // "retryCheck"が1ならば繰り返す
