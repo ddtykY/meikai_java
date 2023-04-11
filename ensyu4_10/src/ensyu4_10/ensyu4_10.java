@@ -27,10 +27,16 @@ public class ensyu4_10 {
 		int quantityNumber = standardInput.nextInt();
 		
 		// 入力された"quantityNumber"回繰り返す
-		for(int i = 0; i < quantityNumber; i++)
-			System.out.print('*');  // *を表示する
+		for(int i = 0; i < quantityNumber; i++) {
+			// *を表示する
+			System.out.print('*');
+		}
 		
-		if (quantityNumber >= 1) System.out.println(); // "quantityNumber"が1以上であれば改行文字を出力する
+		// "quantityNumber"が1以上であれば
+		if (quantityNumber >= 1) {
+			//改行文字を出力する
+			System.out.println();
+		}
 	}
 }
 	
