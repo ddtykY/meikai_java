@@ -36,8 +36,8 @@ public class Ensyu4_27 {
 			System.out.print("何回までに当てますか : ");
 			// int型の変数"limitNumber"に入力された値を代入する
 			limitNumber = standardInput.nextInt();
-		} // "limitNumber"が0以下である場合繰り返す
-		while (limitNumber <= 0);
+		// "limitNumber"が0以下である場合繰り返す
+		} while (limitNumber <= 0);
 
 		// プレイヤーの解答を格納するint型の変数
 		int playerNumber;
@@ -74,13 +74,12 @@ public class Ensyu4_27 {
 			if (playerNumber > answerNumber) {
 				// 答えはその解答よりも小さいということを伝える
 				System.out.println("もっと小さな数だよ"); 
-			}
 			// プレイヤーの解答がゲームの答えより小さければ
-			else if (playerNumber < answerNumber) {
+			} else if (playerNumber < answerNumber) {
 				// 答えはその解答よりも大きいということを伝える
 				System.out.println("もっと大きな数だよ");
 			}
-		}// 無限ループを行う
-		 while(true);
+		// 無限ループを行う
+		} while(true);
 	}
 }
