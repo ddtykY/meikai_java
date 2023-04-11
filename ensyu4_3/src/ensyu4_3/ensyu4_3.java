@@ -38,11 +38,11 @@ public class ensyu4_3 {
 		int minimumNumber = firstValue < secondValue ? firstValue : secondValue;
 		
 		
-		do {// "maximumNumber"を表示し1減算することを"minimumNumber"と同じ値になるまで繰り返すことで全整数の表示を行う
-			// 整数"maximumNumber"を表示する
-			System.out.print(maximumNumber + " ");
-			// "maximumNumber"を1減らす
-			maximumNumber--;
-		} while (maximumNumber >= minimumNumber);  // "maximumNumber"が"minimumNumber"以上の場合繰り返す
+		do {// "minimumNumber"を表示し1加算することを"maximumNumber"と同じ値になるまで繰り返すことで全整数の表示を行う
+			// 整数"minimumNumber"を表示する
+			System.out.print(minimumNumber + " ");
+			// "minimumNumber"を1増やす
+			minimumNumber++;
+		} while (minimumNumber <= maximumNumber);  // "minimumNumber"が"maximumNumber"以下の場合繰り返す
 	}
 }
