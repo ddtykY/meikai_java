@@ -27,12 +27,14 @@ public class ensyu4_22 {
 		// 段数を格納する変数
 		int stepNumber;
 		
-		do { // 段数として正の整数値が入力されるまで繰り返す 
+		 // 段数として正の整数値が入力されるまで繰り返す 
+		do {
 			// 段数の入力を促す
 			System.out.print("段数 : ");
 			// int型の変数"stepNumber"を入力された値で初期化する
 			stepNumber = standardInput.nextInt();
-		} while (stepNumber <= 0); // "stepNumber"が0以下である場合繰り返す
+		//"stepNumber"が0以下である場合繰り返す
+		} while (stepNumber <= 0);
 		
 		
 		// 行を表しfor文の制御を行うint型の"lineNumber"を0で初期化し入力された段数である"stepNumber"回だけ繰り返す
