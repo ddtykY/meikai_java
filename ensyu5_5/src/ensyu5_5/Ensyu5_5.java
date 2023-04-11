@@ -40,6 +40,6 @@ public class Ensyu5_5 {
 		// 合計を表示する
 		System.out.println("合計は " + (firstValue+secondValue+thirdValue) + " です。");
 		//平均を表示する
-		System.out.println("平均は " + (double)(firstValue+secondValue+thirdValue)/2 + " です。");
+		System.out.println("平均は " + (double)(firstValue+secondValue+thirdValue)/3 + " です。");
 	}
 }
