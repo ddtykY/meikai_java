@@ -21,9 +21,9 @@ public class Ensyu6_3 {
 		double[] doubleValueArray  = new double[5];
 		
 		// for文をint型の変数"indexArray"で制御し、これを1で初期化する
-		// firstArrayの要素数分繰り返し更新のたびに"indexArry"をインクリメントする
+		// doubleValueArrayの要素数分繰り返し更新のたびに"indexArry"をインクリメントする
 		for (int indexArray = 0; indexArray < doubleValueArray.length; indexArray++) {
-			// firstArray[indexFirstArray]に先頭から順に1.1, 2.2, 3.3, 4.4, 5.5を代入する必要があるため
+			// firstArray[indexArray]に先頭から順に1.1, 2.2, 3.3, 4.4, 5.5を代入する必要があるため
 			// "(1 + indexArray) + (1 + indexArray) * 0.1"を代入する
 			// "(1+indexArray) * 1.1"を代入すると"indexArray"が3の時に誤差が生じて表示がおかしくなる
 			doubleValueArray[indexArray] = (1 + indexArray) + (1 + indexArray) * 0.1;
