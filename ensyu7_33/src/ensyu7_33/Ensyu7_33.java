@@ -21,12 +21,12 @@ public class Ensyu7_33 {
 	 * 作成日           :2023.04.19
 	 */
 	static int calculateDigit(int integerValue) {
-		// 桁数を表す変数を0で初期化する
+		// 表示桁数を表す変数を0で初期化する
 		int digitNumber = 0;
 		
 		// もし"integreValue"が負の値なら
 		if(integerValue < 0) {
-			// "integerValue"が-1より小さい間繰り返す
+			// "integerValue"が-1以下の間繰り返す
 			while(integerValue <= -1) {
 				// "integerValue"を10で割る
 				integerValue /= 10;
@@ -99,7 +99,7 @@ public class Ensyu7_33 {
 	 * パラメータの説明 :a　表示させる配列
 	 * 返り値           :なし
 	 * 作成者           :山川勇輝
-	 * 作成日           :2023.04.17
+	 * 作成日           :2023.04.19
 	 */
 	static void printArray(int[] a) {
 		// 配列aの要素数分繰り返す
@@ -123,7 +123,7 @@ public class Ensyu7_33 {
 	 * パラメータの説明 :a　表示させる二次元配列
 	 * 返り値           :なし
 	 * 作成者           :山川勇輝
-	 * 作成日           :2023.04.17
+	 * 作成日           :2023.04.19
 	 */
 	static void printArray(int[][] a) {
 		
@@ -175,7 +175,7 @@ public class Ensyu7_33 {
 	
 	/*
 	 * 関数名           :main
-	 * メソッドの説明   :多重定義されたメソッドprintBitsを実行しその結果をそれぞれ表示する
+	 * メソッドの説明   :多重定義されたメソッドprintArrayを実行しその結果をそれぞれ表示する
 	 * パラメータの説明 :なし
 	 * 返り値           :なし
 	 * 作成者           :山川勇輝 
