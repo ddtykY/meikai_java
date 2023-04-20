@@ -18,7 +18,7 @@ public class Ensyu8_1 {
 	 * パラメータの説明 :dataName　入力させるデータについての文字列
 	 *                   minimumLimit　入力させる値の最小値
 	 *                   maximumLimit　入力させる値の最大値
-	 * 返り値           :inputData　
+	 * 返り値           :inputData　入力された値
 	 * 作成者           :山川勇輝
 	 * 作成日           :2023.04.20
 	 */
