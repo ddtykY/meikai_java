@@ -76,7 +76,7 @@ public class Ensyu9_4 {
 	 */
 	static boolean isLeap(int yearNumber) {
 		// "yearNumber"が4の倍数で100の倍数ではなく400の倍数であるときtrueを返却する
-		return yearNumber % 4 == 0 && yearNumber % 100 != 0 && yearNumber % 400 == 0;
+		return yearNumber % 4 == 0 && yearNumber % 100 != 0 || yearNumber % 400 == 0;
 	}
 	
 	/*
